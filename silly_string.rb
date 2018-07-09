@@ -29,11 +29,13 @@ puts "There are #{34} in #{big_word.length}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
-bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
+bigger_word = big_word + "wow" + "mom"
+
+# Use String concatenation to add "wow" and "mom" to big_word
 
 new_letter_count = bigger_word.size
 
-puts "There are now #{new_letter_count} in #{bigger_word.size}"
+puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
