@@ -50,4 +50,4 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 sentence = sentence # Add your gsub chain here
 
-puts sentence.gsub
+puts sentence # Swap all "A" for "O" as well as all "a" for "o".
